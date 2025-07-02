@@ -1,0 +1,124 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:Poppins:wght@300;400;500;600;700;800&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(/forest-1844856_1280\ \(1\).jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.principal{
+    width: 620px;
+    background: transparent;
+    border: 2px solid grey;
+    backdrop-filter: blur(20px); /*embacamento*/
+    box-shadow: 0 0 10px black;
+    color: aliceblue;
+    border-radius: 20px;
+    padding: 30px 40px;
+}
+
+.principal h1{
+    font-size: 36px;
+    text-align: center;
+}
+
+.principal .caixa{
+    height:50px;
+    width: 100%;
+    position: relative;
+    margin: 30px 0;
+
+}
+
+.caixa input{
+     height:100%;
+    width: 100%;
+    background: linear-gradient(green,aliceblue);
+    border: none;
+    outline: none;
+    border: 2px solid rgb(85, 91, 96);
+    border-radius: 40px;
+    color: rgb(20, 108, 185);
+    padding: 20px 45px 20px 20px;
+
+}
+
+.caixa input::placeholder{
+    /*pseudoclasse*/
+    color: aliceblue;
+}
+.caixa i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);/*posicionamento*/
+    font-size: 20px;
+}
+.lembreme{
+    display: flex;
+    margin: -15px 0 15px;
+    font-size: 14.5px;
+    justify-content: space-between;
+
+}
+
+.lembreme label input{
+    accent-color: rgb(11, 11, 12);
+    margin-right: 3px;
+}
+.lembreme a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.lembreme a:hover{
+    text-decoration: underline;
+}
+
+.botao{
+    width: 100%;
+    height: 45px;
+    background: linear-gradient(green,rgb(199, 207, 199));
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10 black;
+    cursor: pointer;
+    font-size: 16px;
+    color: aliceblue;
+    font-weight: 600;
+}
+.cadastro{
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+
+}
+
+.cadastro p{
+    color: aliceblue;
+
+}
+
+.cadastro p a{
+    color: green;
+    text-decoration: none;
+    font-weight: 600
+}
+
+.cadastro p a:hover{
+    text-decoration: underline;
+}
